@@ -9,7 +9,7 @@
 		border: 0;
 		font-size: 100%;
 		font: inherit;
-		vertical-align: baseline;
+		vertical-align: top;
 	}
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -1545,7 +1545,7 @@
 /* Basic */
 
 	body {
-		background: #f0f4f4;
+		background:  #FDFBF0;/*rgb(239,249,230);*/
 		color: #5b5b5b;
 		font-size: 15pt;
 		line-height: 1.85em;
@@ -1740,7 +1740,7 @@
 	}
 
 		.image img {
-			display: block;
+			display: block;		
 			width: 100%;
 		}
 
@@ -1751,7 +1751,7 @@
 
 		.image.featured {
 			display: block;
-			width: 100%;
+			width: 100%;		
 			margin: 0 0 4em 0;
 		}
 
@@ -1769,7 +1769,7 @@
 				margin: 0 auto;
 				width: auto;
 			}
-
+		
 /* List */
 
 	ul.default {
@@ -1874,7 +1874,7 @@
 /* Form */
 
 	form label {
-		display: block;
+		display: blockblock;
 		font-weight: 400;
 		color: #483949;
 		margin: 0 0 1em 0;
@@ -1889,10 +1889,10 @@
 		-webkit-appearance: none;
 		display: block;
 		border: 0;
-		background: #fafafa;
+		background: #FCFAF4;
 		width: 100%;
 		border-radius: 0.5em;
-		border: solid 1px #E5E5E5;
+		border: solid 1px #FCFAF4;
 		padding: 1em;
 		-moz-transition: background-color 0.35s ease-in-out, border-color 0.35s ease-in-out;
 		-webkit-transition: background-color 0.35s ease-in-out, border-color 0.35s ease-in-out;
@@ -1917,7 +1917,7 @@
 	}
 
 	form textarea {
-		min-height: 9em;
+		min-height: 13em;
 	}
 
 	form .formerize-placeholder {
@@ -1993,8 +1993,8 @@
 	.button {
 		position: relative;
 		display: inline-block;
-		background: #79d2a6;
-		color: #fff;
+		background: #977577;
+		color:white;
 		text-align: center;
 		border-radius: 0.5em;
 		text-decoration: none;
@@ -2015,7 +2015,7 @@
 		button:hover,
 		.button:hover {
 			color: #fff;
-			background: #d9f2e6;
+			background: #E8C6C8;
 		}
 
 		input[type="button"].alt,
@@ -2032,8 +2032,10 @@
 			button.alt:hover,
 			.button.alt:hover {
 				background: #3B353C;
-			}
-
+			} 
+		.button.startButton{
+			background: #3F2E2F;
+		}
 /* Post */
 
 	.post.stub {
@@ -2099,7 +2101,7 @@
 
 	#header {
 		position: relative;
-		background-image: url("../../images/nature.jpg");
+		background-image: url("../../images/gCan.jpg");
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;
@@ -2180,7 +2182,7 @@
 
 		body.homepage #header:after {
 			content: '';
-			background: #1C0920;
+			background: #FCFAF4;
 			display: block;
 			position: absolute;
 			left: 0;
@@ -2205,7 +2207,7 @@
 /* Nav */
 
 	#nav {
-		position: absolute;
+		position: fixed;
 		top: 0;
 		left: 0;
 		width: 100%;
@@ -2213,6 +2215,8 @@
 		padding: 1.5em 0 1.5em 0;
 		z-index: 1;
 		overflow: hidden;
+		color: #2B252C;
+		background-color:  #FCFAF4;
 	}
 
 		#nav > ul {
@@ -2221,8 +2225,7 @@
 			display: inline-block;
 			margin: 0;
 			height: 21px;
-			border-left: solid 1px rgba(192, 192, 192, 0.35);
-			border-right: solid 1px rgba(192, 192, 192, 0.35);
+						
 		}
 
 			#nav > ul:before, #nav > ul:after {
@@ -2233,8 +2236,8 @@
 				top: 50%;
 				margin-top: -2px;
 				height: 5px;
-				border-top: solid 1px rgba(192, 192, 192, 0.35);
-				border-bottom: solid 1px rgba(192, 192, 192, 0.35);
+				border-top: dotted 1px #2B252C;
+				border-bottom: dotted 1px #2B252C;
 			}
 
 			#nav > ul:before {
@@ -2511,6 +2514,7 @@
 		.carousel article {
 			display: inline-block;
 			width: 18em;
+			height: 28em;
 			background: #fff;
 			text-align: center;
 			padding: 0 1em 3em 1em;
@@ -2533,9 +2537,16 @@
 				top: 0;
 				width: auto;
 				margin-right: -2em;
-				margin-bottom: 3em;
+				margin-bottom: 1.6em;
 			}
 
+			/*.carousel article div .articleImage{
+			
+			}
+			.carousel article div .articleContent{
+				color:red;
+			
+			}*/
 			.carousel article p {
 				text-align: center;
 			}
@@ -2653,6 +2664,7 @@
 				.carousel article {
 					width: 18em;
 					margin: 0 1em 0 0;
+					
 				}
 
 	}
@@ -3043,6 +3055,7 @@
 
 					.carousel article .image {
 						margin-bottom: 2em;
+						height:15em;						
 					}
 
 	}
