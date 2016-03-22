@@ -2334,7 +2334,7 @@
 	#banner {
 		background: #fff;
 		text-align: center;
-		padding: 4.5em 0 4.5em 0;
+		padding: 5em 0 2em 0;
 		margin-bottom: 0;
 	}
 
@@ -2514,7 +2514,7 @@
 		.carousel article {
 			display: inline-block;
 			width: 18em;
-			height: 26em;
+			height: 24em;
 			background: #fff;
 			text-align: center;
 			padding: 0 1em 1em 1em;
@@ -2549,9 +2549,12 @@
 			.carousel div .reelTitle{
 				margin: 2.2em 0 0 0 ;	
 				height:15%;
-				border-bottom: 1px dotted;
+			
 				padding-top:0.6em;
 				
+			}
+			.carousel div .reelTitle b{
+				border-bottom: 1px dotted #483949;			
 			}
 			.carousel div .reelFooter{
 				height:25%;
