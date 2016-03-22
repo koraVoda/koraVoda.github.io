@@ -2514,10 +2514,10 @@
 		.carousel article {
 			display: inline-block;
 			width: 18em;
-			height: 28em;
+			height: 26em;
 			background: #fff;
 			text-align: center;
-			padding: 0 1em 3em 1em;
+			padding: 0 1em 1em 1em;
 			margin: 0 2em 0 0;
 			white-space: normal;
 			opacity: 1.0;
@@ -2537,19 +2537,8 @@
 				top: 0;
 				width: auto;
 				margin-right: -2em;
-				margin-bottom: 1.6em;
-			}
-
-			/*.carousel article div .articleImage{
-			
-			}
-			.carousel article div .articleContent{
-				color:red;
-			
-			}*/
-			.carousel article p {
-				text-align: center;
-			}
+				margin-bottom: 1em;
+			}			
 
 /* Wide */
 
